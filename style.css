@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabStyle{
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 2px 3px #ddd;
+    margin: 100px auto;
+}
+.tabStyle nav{
+    background: #ececec;
+    overflow: auto;
+}
+.tabStyle nav ul{
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+.tabStyle nav ul li{
+    display: inline-block;
+}
+.tabStyle nav ul li a{
+    padding: 8px 15px;
+    display: block;
+}
+.tabStyle main{
+    padding: 15px;
+}
+
+.tabItemActive{
+    background: #ddd;
+}
+.tabContentActive{
+    display: block;
+}
+section{
+    display: none;
+}

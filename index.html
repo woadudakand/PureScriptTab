@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tab" class="tabStyle">
+        <nav>
+            <ul>
+                <li><a target="one" class="tabItemActive">Tab One</a></li>
+                <li><a target="two">Tab Two</a></li>
+                <li><a target="three">Tab Three</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="one" class="tabContentActive">
+                <h3>First Section</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet recusandae distinctio, quidem autem quaerat repudiandae. Laborum veritatis harum, rerum vitae repellat voluptatibus dignissimos, obcaecati aspernatur dolore voluptas exercitationem voluptates vel.
+                </p>
+            </section>
+            <section id="two">
+                <article>
+                    <h3>Second Section</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet recusandae distinctio, quidem autem quaerat repudiandae. Laborum veritatis harum, rerum vitae repellat voluptatibus dignissimos, obcaecati aspernatur dolore voluptas exercitationem voluptates vel.
+                    </p>
+                </article>                
+            </section>
+            <section id="three">
+                <h3>Thired Section</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet recusandae distinctio, quidem autem quaerat repudiandae. Laborum veritatis harum, rerum vitae repellat voluptatibus dignissimos, obcaecati aspernatur dolore voluptas exercitationem voluptates vel.
+                </p>
+            </section>
+        </main>        
+    </div> 
+	
+	<div id="tab1" class="tabStyle">
+        <nav>
+            <ul>
+                <li><a target="onet" class="tabItemActive">Tab One</a></li>
+                <li><a target="twot">Tab Two</a></li>
+                <li><a target="threet">Tab Three</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="onet" class="tabContentActive">
+                <h3>First Section</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet recusandae distinctio, quidem autem quaerat repudiandae. Laborum veritatis harum, rerum vitae repellat voluptatibus dignissimos, obcaecati aspernatur dolore voluptas exercitationem voluptates vel.
+                </p>
+            </section>
+            <section id="twot">
+                <article>
+                    <h3>Second Section</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet recusandae distinctio, quidem autem quaerat repudiandae. Laborum veritatis harum, rerum vitae repellat voluptatibus dignissimos, obcaecati aspernatur dolore voluptas exercitationem voluptates vel.
+                    </p>
+                </article>                
+            </section>
+            <section id="threet">
+                <h3>Thired Section</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet recusandae distinctio, quidem autem quaerat repudiandae. Laborum veritatis harum, rerum vitae repellat voluptatibus dignissimos, obcaecati aspernatur dolore voluptas exercitationem voluptates vel.
+                </p>
+            </section>
+        </main>        
+    </div>  
+    
+    <script src="script.js"></script>
+    <script>
+        pureScriptTab('#tab');
+        pureScriptTab('#tab1');
+    </script>
+</body>
+</html>
